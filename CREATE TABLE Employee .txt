@@ -1,0 +1,7 @@
+CREATE TABLE Employee 
+( 
+    Id   INT PRIMARY KEY, 
+    Name  VARCHAR2(20), 
+    Email  VARCHAR2(20) PRIMARY KEY,
+    Department  VARCHAR2(10)
+);
